@@ -26,6 +26,7 @@ Run `vagrant up`
 ### Provisioned via `:shell`
 - 1 GB ram
 - PostgreSQL with Vagrant user
+- NodeJS
 - Rails
 - Ports forwarded:
   - 80 > 80       # typical http
