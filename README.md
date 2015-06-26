@@ -11,7 +11,14 @@ Drop the two files in this repository into a project folder, or parent folder:
 - Vagrantfile
 - Vagrant-setup/vagrant-postgres.sh
 
-Run `vagrant up`
+Run
+```bash
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+```
+From here you can either git clone a repo down, or `rails new myapp --database=postgresql`
+
 
 # Contents
 
